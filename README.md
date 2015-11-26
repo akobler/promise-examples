@@ -134,6 +134,13 @@ Q.longStackSupport = true
 * https://www.promisejs.org/
 * https://github.com/bellbind/using-promise-q/
 * https://strongloop.com/strongblog/promises-in-node-js-with-q-an-alternative-to-callbacks/
+* 
+
+#### Other retrospects
+* https://medium.com/@killercup/using-promises-more-effectively-in-node-js-461387397aa3#.3hmgzhxol
+
+#### Alternative promise implementations
+* Bluebird: https://github.com/petkaantonov/bluebird
 
 ### Examples
 
