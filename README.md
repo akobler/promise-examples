@@ -6,7 +6,7 @@
 
 #### Biggest advantages of promises over plain callbacks, async.js etc. (opinionated)
 * generalized error handling/propagation
-* flexibility if chaining, nesting, early escape
+* flexibility of chaining, nesting, early escaping, etc.
 
 #### Mental model
 * chain of (pending) results
@@ -49,7 +49,7 @@ getPromise()
 ```
 // avoid
 function brokenInCatch() {
-   getPromise()                     // attention: promise is not returned to the caller of broken()
+   getPromise()                     // attention: promise is not returned to the caller of brokenInCatch()
    .then(function fulfilled() {})
    .catch(function rejected() {
       throw new Error('oops')       // never noticed
@@ -139,7 +139,9 @@ Q.longStackSupport = true
 
 Install:
 ```
-npm i
+sudo npm i mocha -g
+sudo npm i run -g
+cd ~/promise-examples/ && npm i
 ```
 
 Start examples 1 to 6 with live reload:
