@@ -1,6 +1,8 @@
 
 ### Application stabilization with Q Promises
 
+The talk was given at "Bärner JS Talks" on 25. November 2015, watch the recording here: https://www.youtube.com/watch?v=UWstr77qYIg
+
 #### Motivation
 * all IO in node is asynchronous -> mastering async code is prerequisite for stabilization
 
